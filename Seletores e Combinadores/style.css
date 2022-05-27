@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.exemplo {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* o símbolo de "+" seleciona o primeiro irmão do elemento */
+.exemplo_3 + p {
+    color: blue;
+}
+
+/* o símbolo "~" seleciona todos os irmãos do elemento */
+.exemplo_4 ~ p {
+    color: green;
+}
+
+/* o símbolo ">" selecionar os filhos do elemento */
+.exemplo > p {
+    color: red;
+}
+
