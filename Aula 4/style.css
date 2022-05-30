@@ -1,0 +1,19 @@
+body {
+   background: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2155303-abstrato-laranja-liquido-cor-fundo-ondulado-geometrico-fundo-dinamico-texturizado-geometrico-elemento-design-gr%C3%A1tis-vetor.jpg);
+}
+
+ul {
+    background-color: gray;
+    padding: 10px;
+    visibility: hidden;
+}
+
+ul li {
+    display:inline;
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
