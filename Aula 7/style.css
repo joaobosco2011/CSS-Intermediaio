@@ -1,0 +1,22 @@
+p::first-line {
+    color: white;
+    font-weight: bold;
+    background: orange;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(https://thumbs.dreamstime.com/b/vector-rocket-icon-navio-em-um-estilo-liso-come%C3%A7o-u-de-rocket-do-projeto-78175273.jpg);
+    /* A propriedade abaixo faz com que o background cubra o tamanho da área destinada a ele */
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    /* A propriedade abaixo é obrigatória para este pseudo-elemento mesmo que não seja usada */
+    content: '';
+}
+
