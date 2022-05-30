@@ -1,0 +1,59 @@
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+/* Mostra o elemento caixa quando passa o mouse sobre o link */
+a:hover + .caixa {
+    display: block;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: pink;
+}
+
+.caixa {
+    display: none;
+    width: 150px;
+    height: 150px;
+    background: black;
+}
+
+.caixa:hover {
+    background: green;
+    width: 10px;
+    height: 10px;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: purple;
+}
+
+.exemplo, .exemplo2 {
+    border: 1px dashed black;
+    margin: 10px;
+}
+
+.exemplo p:first-child {
+    border: 2px dashed black;
+}
+
+.exemplo p:last-child {
+    background: gray;
+}
+
+.exemplo2 p:nth-child(5) {
+    background: orange;
+}
